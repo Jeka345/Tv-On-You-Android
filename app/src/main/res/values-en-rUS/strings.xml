@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV on you android v2.0</string>
+    <string name="browse_title">TV on you android v2.0</string>
+    <string name="related_movies">Other Channels</string>
+    <string name="watch_trailer_1">Watch</string>
+    <string name="movie">Channels</string>
+    <string name="grid_view">Grid View</string>
+    <string name="error_fragment">Error Fragment</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="dismiss_error">Dismiss</string>
+    <string name="federals">Federal</string>
+    <string name="razvlekat">Entertainment</string>
+    <string name="informchannels">Information</string>
+    <string name="author">Author Evgeny Zolotov, channels updates\ncheck Telegram: devcmfeedback_bot</string>
+</resources>
