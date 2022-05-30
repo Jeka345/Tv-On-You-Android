@@ -1,5 +1,6 @@
 # ТВ на твоем андроиде для Android TV
-# СКАЧАТЬ ПЛЕЕР 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release]
+# СКАЧАТЬ ПЛЕЕР SSL 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release-ssl]
+# СКАЧАТЬ ПЛЕЕР NO SSL 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release-nossl]
 
 Данный плеер предназначен для просмотра IPTV каналов на базе Android из основного:
 - Легкий вес;
@@ -39,6 +40,7 @@ git clone [git-repo-url], далее читаем ниже
    [Evgeniy Zolotov]: <https://t.me/SmallVeins>
    [telegramdevchannel]: <https://t.me/devcm_jeka345old>
    [github-source-nogit]: <https://github.com/Jeka345/Tv-On-You-Android>
-   [release]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/MainUpdate/tvonyouandroidupdate.apk>
+   [release-ssl]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/MainUpdate/tvonyouandroidupdate-ssl.apk>
+   [release-nossl]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/MainUpdate/tvonyouandroidupdate-nossl.apk>
    
 ## ВАЖНО! Исходный код распространяется по свободной лицензии но с сохранением авторских прав, удаление авторских прав запрещено!
