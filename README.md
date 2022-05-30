@@ -1,6 +1,5 @@
 # ТВ на твоем андроиде для Android TV
-# СКАЧАТЬ ПЛЕЕР SSL 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release-ssl]
-# СКАЧАТЬ ПЛЕЕР NO SSL 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release-nossl]
+# СКАЧАТЬ ПЛЕЕР SSL 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release-ssl] NO SSL 👉 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)][release-nossl]
 
 Данный плеер предназначен для просмотра IPTV каналов на базе Android из основного:
 - Легкий вес;
