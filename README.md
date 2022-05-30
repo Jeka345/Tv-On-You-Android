@@ -39,6 +39,6 @@ git clone [git-repo-url], далее читаем ниже
    [Evgeniy Zolotov]: <https://t.me/SmallVeins>
    [telegramdevchannel]: <https://t.me/devcm_jeka345old>
    [github-source-nogit]: <https://github.com/Jeka345/Tv-On-You-Android>
-   [release]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/MainUpdate/app-release-ssl.apk>
+   [release]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/MainUpdate/tvonyouandroidupdate.apk>
    
 ## ВАЖНО! Исходный код распространяется по свободной лицензии но с сохранением авторских прав, удаление авторских прав запрещено!
