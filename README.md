@@ -31,7 +31,7 @@ git clone [git-repo-url], далее читаем ниже
 Установка исходного кода без использования GIT ONLY WINDOWS!
 
 ````sh
-    Скачать ZIP архив: https://github.com/Jeka345/peerstv/archive/refs/heads/main.zip
+    Скачать ZIP архив: https://github.com/Jeka345/Tv-On-You-Android/archive/refs/tags/MainUpdate.zip
     Распаковать архив в любую папку
     Запустить Android Studio и открыть проект
 ``````
@@ -39,6 +39,6 @@ git clone [git-repo-url], далее читаем ниже
    [Evgeniy Zolotov]: <https://t.me/SmallVeins>
    [telegramdevchannel]: <https://t.me/devcm_jeka345old>
    [github-source-nogit]: <https://github.com/Jeka345/Tv-On-You-Android>
-   [release]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/Main/app-release-androidtv.apk>
+   [release]: <https://github.com/Jeka345/Tv-On-You-Android/releases/download/MainUpdate/app-release-ssl.apk>
    
 ## ВАЖНО! Исходный код распространяется по свободной лицензии но с сохранением авторских прав, удаление авторских прав запрещено!
