@@ -1,6 +1,8 @@
 package com.devcm.tvyoutv;
 
 import android.os.Bundle;
+import android.os.PowerManager;
+
 import androidx.fragment.app.FragmentActivity;
 /*
  * Main Activity class that loads {@link MainFragment}.

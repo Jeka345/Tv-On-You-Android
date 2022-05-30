@@ -4,6 +4,7 @@
     package="com.devcm.tvyoutv">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
 
     <uses-feature
         android:name="android.hardware.touchscreen"

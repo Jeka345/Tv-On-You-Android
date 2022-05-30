@@ -38,8 +38,8 @@ public class MainFragment extends BrowseSupportFragment
     private static final int NUM_INFOCHANNELS = 2;
     private static final int NUM_MUSICCHANNELS = 12;
     private static final int NUM_KIDSTV = 7;
-    private static final int NUM_POZNAVATELNIECANALI = 18;
-    private static final int NUM_POZNAVATELNIECANALIUHD = 3;
+    private static final int NUM_POZNAVATELNIECANALI = 20;
+    private static final int NUM_POZNAVATELNIECANALIUHD = 1;
     private static final int NUM_FILMSCHANNELS = 18;
     private static final int NUM_REGIONALSCH = 4;
     private static final int NUM_SPORTCHANNELS = 33;

@@ -1,6 +1,4 @@
 package com.devcm.tvyoutv;
-import androidx.annotation.NonNull;
-
 import java.util.ArrayList;
 import java.util.List;
 public final class ChannelList
@@ -107,8 +105,9 @@ public final class ChannelList
     private static long count = 0;
     public static final String urlimage = "https://itv.svc.iptv.rt.ru";
     public static final String imgur = "https://i.imgur.com/";
+    public static final String cdnimage = "http://cdnfilesproject.sytes.net/iptvdevcm/";
     public static final String urllive1server = "https://livetv.mylifeisgood.ml/channels/";
-    public static final String urllive2server = "https://2serv.mylifeisgood.ml/channels/";
+    public static final String yandexefir = "https://strm.yandex.ru/kal/";
     public static List<Movie> getList()
     {
         if (federals == null)
@@ -255,8 +254,8 @@ public final class ChannelList
                 urllive1server + "russiak.m3u8",
                 urllive1server + "russia24.m3u8",
                 urllive1server + "karusel.m3u8",
-                urllive2server + "otr.m3u8",
-                urllive2server + "tvc.m3u8",
+                yandexefir + "otr/otr0.m3u8",
+                yandexefir + "tvc/tvc0.m3u8",
                 urllive1server + "rentvhd.m3u8",
                 urllive1server + "spas.m3u8",
                 urllive1server + "sts.m3u8",
@@ -264,9 +263,9 @@ public final class ChannelList
                 urllive1server + "tv3.m3u8",
                 urllive1server + "friday.m3u8",
                 urllive1server + "zvezda.m3u8",
-                urllive2server + "mirhd.m3u8",
+                yandexefir + "mir/mir0.m3u8",
                 urllive1server + "tnt.m3u8",
-                urllive1server + "muztvhd.m3u8"
+                urllive1server + "muztv.m3u8"
         };
         String cardImageUrlchannels[] = {
                 urlimage + "/sdp/mos/nclogo1529398530175.png",
@@ -307,12 +306,14 @@ public final class ChannelList
                 "2x2 ТВ",
                 "ТНТ4 HD",
                 "Paramount Comedy",
+                "Paramount Channel",
                 "Телеканал 360°",
                 "Анекдот ТВ",
                 "Канал Ю"
         };
 
         String description[] = {
+                "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
@@ -328,9 +329,10 @@ public final class ChannelList
                 urllive1server + "2x2.m3u8",
                 urllive1server + "tnt4hd.m3u8",
                 urllive1server + "paramount_comedy.m3u8",
+                urllive1server + "paramount_channel.m3u8",
                 urllive1server + "ch360.m3u8",
                 urllive1server + "anekdot.m3u8",
-                urllive1server + "u_tv.m3u8"
+                urllive1server + "u_ott_tv.m3u8"
         };
         String cardImageUrlchannels[] = {
                 urlimage + "/sdp/mos/nclogo1560865516031.png",
@@ -338,6 +340,7 @@ public final class ChannelList
                 urlimage + "/sdp/mos/nclogo1629960527155.png",
                 urlimage + "/sdp/mos/nclogo1534762634936.png",
                 urlimage + "/sdp/mos/nclogo1497612781530.png",
+                urlimage + "/sdp/mos/nclogo1508246021246.png",
                 urlimage + "/sdp/mos/nclogo1524557207303.png",
                 urlimage + "/sdp/mos/nclogo1497600539849.png",
                 urlimage + "/sdp/ct/nclogo1536331049265.png"
@@ -363,7 +366,7 @@ public final class ChannelList
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст"
         };
         String videoUrlchannels[] = {
-                urllive2server + "mirhdpremium.m3u8",
+                yandexefir + "mir24/mir240.m3u8",
                 urllive1server + "ch360news.m3u8"
         };
         String cardImageUrlchannels[] = {
@@ -445,12 +448,16 @@ public final class ChannelList
                 "Top Secret",
                 "Диалоги о Рыбалке",
                 "Оружие",
+                "Загородный Int",
+                "HD Life",
                 "Живи активно HD",
-                "Глазами туриста HD",
-                "Живая природа HD"
+                "Глазами туриста",
+                "Живая природа"
         };
 
         String description[] = {
+                "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
+                "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
@@ -486,6 +493,8 @@ public final class ChannelList
                 urllive1server + "sovsec127.m3u8",
                 urllive1server + "dialogiorybalke.m3u8",
                 urllive1server + "oruzhie.m3u8",
+                urllive1server + "zagorodint.m3u8",
+                urllive1server + "hdlife.m3u8",
                 urllive1server + "jiviactivno.m3u8",
                 urllive1server + "glazamiturista.m3u8",
                 urllive1server + "jivyapriroda.m3u8"
@@ -506,6 +515,8 @@ public final class ChannelList
                 urlimage + "/sdp/mos/nclogo1616576008691.png",
                 urlimage + "/sdp/mos/nclogo1544005813039.png",
                 urlimage + "/sdp/mos/nclogo1547125351834.png",
+                cdnimage + "zagorodint.jpeg",
+                cdnimage + "hd-life.png",
                 urlimage + "/sdp/mos/nclogo1626944669217.png",
                 urlimage + "/sdp/mos/nclogo1574337364513.png",
                 urlimage + "/sdp/mos/nclogo1574337312666.png"
@@ -522,25 +533,17 @@ public final class ChannelList
     {
         animaltvuhd = new ArrayList<>();
         String titlechannels[] = {
-                "Наша Сибирь 4К [HEVEC]",
-                "HOME 4K [HEVEC]",
-                "Глазами туриста 4К [HEVEC]"
+                "Наша Сибирь 4К [HEVEC]"
         };
 
         String description[] = {
-                "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
-                "Тут когда нибудь появится программа передач, а пока что тут просто этот текст",
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст"
         };
         String videoUrlchannels[] = {
-                urllive1server + "nashasibir4k.m3u8",
-                urllive1server + "home4k.m3u8",
-                urllive1server + "glazamiturista4k.m3u8"
+                urllive1server + "nashasibir4k.m3u8"
         };
         String cardImageUrlchannels[] = {
-                urlimage + "/sdp/mos/nclogo1601882614829.png",
-                imgur + "vm6YHjc.png",
-                urlimage + "/sdp/mos/nclogo1626943008722.png"
+                urlimage + "/sdp/mos/nclogo1601882614829.png"
         };
 
         for (int index = 0; index < titlechannels.length; ++index)
@@ -606,10 +609,10 @@ public final class ChannelList
                 urllive1server + "tv1000action.m3u8",
                 urllive1server + "tv1000ruskino.m3u8",
                 urllive1server + "fenixkino.m3u8",
-                urllive1server + "ntvhit.m3u8",
-                urllive1server + "ntvserial.m3u8",
-                urllive1server + "ntvpravo.m3u8",
-                urllive1server + "ntvstyle.m3u8",
+                urllive1server + "ntvhit24.m3u8",
+                urllive1server + "ntvserial24.m3u8",
+                urllive1server + "ntvpravo24.m3u8",
+                urllive1server + "ntvstyle24.m3u8",
                 urllive1server + "trash.m3u8",
                 urllive1server + "96d9a62bc619079db307c8fd067a1ab9.m3u8",
                 urllive1server + "ccf149ef976cb08ffb31e2047772386a.m3u8"
@@ -675,10 +678,10 @@ public final class ChannelList
                 "Тут когда нибудь появится программа передач, а пока что тут просто этот текст"
         };
         String videoUrlchannels[] = {
-                urllive2server + "rusmusicbox.m3u8",
-                urllive2server + "musicboxgold.m3u8",
-                urllive2server + "tntmusic.m3u8",
-                urllive2server + "europaplustv.m3u8",
+                yandexefir + "rmbox/rmbox0.m3u8",
+                urllive1server + "rusmusicbox24.m3u8",
+                yandexefir + "tntmusic/tntmusic0.m3u8",
+                yandexefir + "europaplus/europaplus0.m3u8",
                 urllive1server + "1hdmusic.m3u8",
                 urllive1server + "bridgetv24h.m3u8",
                 urllive1server + "bridgeclassictv.m3u8",
@@ -686,7 +689,7 @@ public final class ChannelList
                 urllive1server + "bridgehitstv.m3u8",
                 urllive1server + "bridgerushittv.m3u8",
                 urllive1server + "bridgetvshlyager.m3u8",
-                urllive2server + "bridgefreshya.m3u8"
+                yandexefir + "bridge_tv_fresh/bridge_tv_fresh0.m3u8"
         };
         String cardImageUrlchannels[] = {
                 urlimage + "/sdp/mos/nclogo1598949465804.png",
@@ -730,7 +733,7 @@ public final class ChannelList
                 urllive1server + "moscow24.m3u8",
                 urllive1server + "moscvadoverie.m3u8",
                 urllive1server + "78saintpetersburg.m3u8",
-                urllive2server + "ntc.m3u8"
+                yandexefir + "nts/nts0.m3u8"
         };
         String cardImageUrlchannels[] = {
                 urlimage + "/sdp/mos/nclogo1583844644861.png",
@@ -822,7 +825,7 @@ public final class ChannelList
         String videoUrlchannels[] = {
                 urllive1server + "matchstrana.m3u8",
                 urllive1server + "startlive.m3u8",
-                urllive2server + "udarlive.m3u8",
+                yandexefir + "udar/udar0.m3u8",
                 urllive1server + "viasatsporthd.m3u8",
                 urllive1server + "eurosport1ru.m3u8",
                 urllive1server + "eurosport2.m3u8",
