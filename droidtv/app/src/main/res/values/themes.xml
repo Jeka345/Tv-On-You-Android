@@ -1,6 +1,0 @@
-<resources>
-
-    <style name="Theme.Droidtv" parent="@style/Theme.Leanback">
-        <item name="android:windowBackground">@color/background_chn</item>
-    </style>
-</resources>
