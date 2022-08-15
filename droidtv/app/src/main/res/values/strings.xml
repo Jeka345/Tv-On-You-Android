@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ТВ на твоем андроиде</string>
+    <string name="browse_title">ТВ на твоем андроиде 2.0</string>
+    <string name="related_channels">Похожие ТВ каналы</string>
+    <string name="grid_view" translatable="false">Grid View</string>
+    <string name="error_fragment">Ошибка отображения</string>
+    <string name="personal_settings">Персональные настройки</string>
+    <string name="online_tv">Смотреть онлайн бесплатно</string>
+    <string name="movie">Телеканал</string>
+
+    <!-- Error messages -->
+    <string name="error_fragment_message">Произошла ошибка</string>
+    <string name="dismiss_error" translatable="false">Dismiss</string>
+    <string name="author">Автор Evgeniy Zolotov, по поводу обновления приложения</string>
+    <string name="telegram">\@devcmfeedback_bot</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Техническая информация</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Версия клиента</string>
+    <string name="reply_title">Техническая поддержка</string>
+    <string name="author_short">Evgeniy Zolotov</string>
+    <string name="author_title">Автор</string>
+    <string name="error_internet">Отсутствует соединение с интернетом.</string>
+    <string name="error_internet_1">Подключитесь к интернету и перезапустите приложение.</string>
+    <string name="button_ok">ОК</string>
+    <string name="no_search_result">По вашему запросу ничего не найдено.</string>
+    <string name="yes_search_result">По вашему запросу найдено.</string>
+    <string name="techincal_support">Техническая информация о приложении.</string>
+    <string name="Support">Поддержка, отсканируйте QR-Code</string>
+    <string name="donate_this_project">Поддержать данный проект.</string>
+    <string name="qr">QR</string>
+    <string name="info_on_main">При обращении в техническую поддержку укажите № версии приложения который отображается наверху</string>
+</resources>
