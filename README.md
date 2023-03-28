@@ -1,5 +1,6 @@
 # ТВ на твоем андроиде для Android TV
 # СКАЧАТЬ ПЛЕЕР 👉 [![GitHub branch checks state](https://img.shields.io/github/checks-status/Jeka345/Tv-On-You-Android/main_str)][release-ssl]
+# Используют 👉  [![HitCount](https://hits.dwyl.com/Jeka345/Tv-On-You-Android.svg?style=flat-square&show=unique)](http://hits.dwyl.com/Jeka345/Tv-On-You-Android)
 
 Данный плеер предназначен для просмотра IPTV каналов на базе Android из основного:
 - Легкий вес;
