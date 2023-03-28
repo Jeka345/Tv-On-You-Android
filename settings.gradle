@@ -1,10 +1,16 @@
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories
-            {
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
         google()
         mavenCentral()
     }
 }
-rootProject.name = "tvyoutv"
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "droidtv"
 include ':app'

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TV on you android</string>
+    <string name="browse_title">TV on you android 2.0</string>
+    <string name="online_tv">Watch online for free</string>
+    <string name="movie">TV channel</string>
+    <string name="error_fragment_message">An error occurred</string>
+    <string name="personal_settings">Personal Settings</string>
+    <string name="related_channels">Related TV Channels</string>
+    <string name="error_fragment">Display error</string>
+    <string name="author">Author Evgeniy Zolotov, about updating the application check</string>
+    <string name="telegram">\@devcmfeedback_bot</string>
+    <string name="messages_header">Technical information</string>
+    <string name="signature_title">Client version</string>
+    <string name="reply_title">Technical support</string>
+    <string name="author_short">Evgeniy Zolotov</string>
+    <string name="author_title">Author</string>
+    <string name="error_internet">There is no internet connection.</string>
+    <string name="error_internet_1">Connect to the internet and restart the application.</string>
+    <string name="button_ok">Ok</string>
+    <string name="no_search_result">Nothing was found for your query.</string>
+    <string name="yes_search_result">Found according to your request.</string>
+    <string name="techincal_support">Technical Information on application.</string>
+    <string name="Support">Support, Scan QR-Code</string>
+    <string name="donate_this_project">Support this project</string>
+    <string name="qr">QR</string>
+    <string name="info_on_main">When contacting technical support, specify the application version number that is displayed at the top</string>
+</resources>
